@@ -1,3 +1,5 @@
+APP: https://spam-mail-classification8901.streamlit.app/
+
 Spam Email Detection App
 This project demonstrates a simple Spam Email Detection web application using Streamlit and Naive Bayes Classifier. The app takes in an email message as input and predicts whether it is spam or not spam based on the content of the email.
 
