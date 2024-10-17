@@ -5,6 +5,13 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 
+
+import os
+
+# Load the data
+data_path = os.path.join(os.path.dirname(__file__), 'spam_data.csv')
+data = pd.read_csv(data_path)
+
 # Load the data
 import pandas as pd
 data = pd.read_csv('spam_data.csv')
